@@ -41,7 +41,7 @@ def main():
         enderecos.append(endereco)
         ratings.append(rating)
 
-    df["endereco"] = enderecos
+    df["Endereço"] = enderecos
     df["Rating"] = ratings
     df.to_excel("dados.xlsx", index=False)
     driver.quit()
